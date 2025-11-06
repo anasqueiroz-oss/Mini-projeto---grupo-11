@@ -1,4 +1,12 @@
-Html e CSS servem para a parte do design do site
-O javascrip serve para funcionalidades do site
-o git esta sendo usado como protocolo de segurança e historico
-o github para colaboração e compartilhamento de dados
+O HTML (HyperText Markup Language) e o CSS (Cascading Style Sheets) são as linguagens fundamentais responsáveis pela estrutura e pelo design visual de um site.
+O HTML é utilizado para definir o conteúdo e a organização das informações na página, como títulos, parágrafos, imagens, links e formulários. Ele cria a base, a “ossatura” do site.
+Já o CSS é usado para estilizar e personalizar a aparência visual, controlando cores, tamanhos, fontes, espaçamentos e o posicionamento dos elementos. Com ele, o site ganha identidade visual e uma experiência mais agradável para o usuário.
+
+O JavaScript, por sua vez, é a linguagem que traz interatividade e dinamismo ao site. Ele é responsável pelas funcionalidades que permitem a comunicação entre o usuário e a página, como menus interativos,
+ validação de formulários, animações, exibição de mensagens e atualização de dados sem recarregar a página (por exemplo, através do AJAX). Em resumo, o JavaScript transforma páginas estáticas em aplicações web dinâmicas.
+
+O Git é um sistema de controle de versão, usado para registrar o histórico de alterações feitas nos arquivos do projeto. Ele funciona como um “protocolo de segurança” para o código, pois permite reverter mudanças, 
+comparar versões anteriores e evitar a perda de dados. Além disso, possibilita que vários desenvolvedores trabalhem em um mesmo projeto de forma organizada e sem sobrescrever o trabalho uns dos outros.
+
+Por fim, o GitHub é uma plataforma online que utiliza o Git como base, mas adiciona recursos de colaboração, compartilhamento e gerenciamento de projetos. Ele permite que equipes trabalhem juntas em tempo real, revisem códigos,
+ criem ramificações (branches) e enviem sugestões de melhorias (pull requests). Além disso, o GitHub serve como um repositório remoto seguro, onde o código-fonte pode ser armazenado, documentado e publicado para acesso público ou privado.
