@@ -1,0 +1,4 @@
+Html e CSS servem para a parte do design do site
+O javascrip serve para funcionalidades do site
+o git esta sendo usado como protocolo de segurança e historico
+o github para colaboração e compartilhamento de dados
