@@ -1,0 +1,204 @@
+-----> Aula 01 — Versionamento e Colaboração: A Gestão Inteligente do Código
+
+Conceitos principais
+
+Versionamento é o ato de rastrear e gerenciar mudanças em documentos e códigos.
+
+Permite rastrear quem, quando e por que fez uma alteração.
+
+Facilita restauração de versões e colaboração paralela.
+
+Cada versão é um snapshot (instantâneo) do projeto.
+
+-Sistemas de Controle de Versão (VCS)
+
+Local (LVCS): histórico mantido apenas no computador — risco de perda total.
+
+Centralizado (CVCS): servidor central (ex.: SVN) — risco se o servidor falhar.
+
+Distribuído (DVCS): cada desenvolvedor tem cópia completa (ex.: Git, Mercurial) — mais seguro e rápido.
+
+Visão Sistêmica
+
+Entender o código como um organismo em evolução.
+
+Versionamento ajuda a:
+
+Mostrar o fluxo das funcionalidades (branches).
+
+Isolar problemas.
+
+Gerenciar impacto antes da integração.
+
+-Elementos do Git
+
+Linha Azul (main/master): código estável e pronto para produção.
+
+Círculos (C1, C2...): commits, snapshots no tempo.
+
+Linha Verde: feature branch (nova funcionalidade).
+
+Linha Roxa: bugfix branch (correção isolada).
+
+Setas: merge (integração).
+
+-----> Aula 02 — Fundamentos do Git e Boas Práticas de Commits
+
+-O que é Git
+
+Sistema de controle de versão distribuído.
+
+Registra e controla modificações no código-fonte.
+
+Permite colaboração e histórico de mudanças.
+
+Por que usar
+
+Segurança e controle.
+
+Desenvolvimento distribuído.
+
+Histórico completo.
+
+Trabalho em equipe.
+
+Instalação e configuração
+
+Download: https://git-scm.com/downloads
+
+-Configuração inicial:
+
+git config --global user.name "Seu Nome"
+git config --global user.email "Seu Email"
+
+
+-Principais comandos
+
+git init → inicia repositório.
+
+git add → adiciona arquivos à staging area.
+
+git status → mostra estado dos arquivos.
+
+git commit -m "mensagem" → salva versão no repositório.
+
+git log → exibe histórico de commits.
+
+Boas práticas
+
+Mensagens curtas e objetivas (até 70 caracteres).
+
+Especifique o tipo de commit.
+
+Forneça contexto.
+
+-Padrões de commit
+
+feat: nova funcionalidade.
+
+fix: correção de bug.
+
+docs: alteração em documentação.
+
+test: criação ou modificação de testes.
+
+build: mudanças em dependências.
+
+perf: melhorias de desempenho.
+
+style: ajustes de formatação.
+
+refactor: mudanças de estrutura sem alterar função.
+
+chore: tarefas administrativas.
+
+ci: integração contínua.
+
+----- > Aula 03 — GitHub e Colaboração em Equipe
+
+-O que é GitHub
+
+Plataforma online que usa Git para hospedar projetos.
+
+Permite colaboração, compartilhamento e controle de versões.
+
+Acesso: https://github.com
+
+Criação de conta e repositório
+
+Clique em “Sign up”.
+
+Informe e-mail, senha e nome de usuário.
+
+Verifique o e-mail.
+
+Crie um novo repositório: nome versionamento, adicione uma descrição e um README.
+
+Principais funcionalidades
+
+Hospedagem de repositórios.
+
+Controle de versão com Git.
+
+Pull Requests, Issues e GitHub Actions.
+
+Portfólio e colaboração.
+
+-Comandos GitHub
+
+git push: envia commits locais ao repositório remoto.
+
+git pull: atualiza o repositório local.
+
+git remote: gerencia conexões remotas.
+
+git clone: copia um repositório remoto para o local.
+
+-Branches Permitem trabalho paralelo sem conflitos.
+
+main: código estável.
+
+dev: ambiente de desenvolvimento.
+
+feature: novas funcionalidades.
+
+bugfix: correções de bugs.
+
+hotfix: correções urgentes.
+
+release: versão de lançamento.
+
+-----> Aula 04 — Pull Requests, Code Review e Conflitos
+
+-Pull Requests (PR) 
+Revisão de código antes da integração à main.
+
+Criar PR ao concluir uma feature ou correção.
+
+-Code Review 
+Garantir qualidade e padrões do código.
+
+Proporcionar aprendizado colaborativo e revisão entre pares.
+
+-Sincronização frequente
+
+Usar git pull e git fetch para manter o código local atualizado.
+
+-Comandos de integração
+
+git checkout: alterna entre branches.
+
+git branch: exibe ou cria branches.
+
+git fetch: busca atualizações do remoto.
+
+git merge: funde alterações.
+
+git revert: desfaz um commit específico sem apagar o histórico.
+
+git commit --amend: altera o último commit.
+
+-Renomear branch
+
+git branch -m novo-nome
+git branch -m antigo-nome novo-nome
