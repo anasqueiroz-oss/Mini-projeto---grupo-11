@@ -1,0 +1,30 @@
+Tecnologias propostas (versão recomendada)
+
+---> Frontend
+HTML5, CSS3, JavaScript;
+Biblioteca/Framework: React (recomendado) ou Vue;
+Framework CSS: Bootstrap ou TailwindCSS.
+
+---> Backend
+Node.js + Express OR Python + Flask/FastAPI;
+Autenticação: JWT.
+
+---> Banco de Dados
+SQLite (simples / local) ou PostgreSQL (produção).
+
+DevOps / Ferramentas
+Controle de versão: Git + GitHub;
+Integração contínua (opcional): GitHub Actions;
+Container: Docker (opcional).
+
+---> Qualidade
+Linter: ESLint / Flake8;
+Formatação: Prettier / Black;
+Testes: Jest (JS) ou pytest (Python).
+
+---> Commits sugeridos:
+chore(tecnologias): adicionar lista inicial de tecnologias;
+chore(ci): adicionar workflow de CI (opcional).
+
+---> Observações:
+Essa é uma lista sugerida; o time pode selecionar tecnologias específicas. Membro 3 deve fazer pelo menos 2 commits claros na branch feature-tecnologias.
